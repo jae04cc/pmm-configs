@@ -27,4 +27,3 @@ collections:
   Oscars 2022:
     template: { name: Oscars, year: 2022 }
     url_poster: https://theposterdb.com/api/assets/10049
-    radarr_add_missing: true
