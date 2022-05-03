@@ -1,0 +1,86 @@
+templates:
+  Set:
+    optional:
+      - collection
+      - movie
+      - list
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    tmdb_list: <<list>>
+    sync_mode: sync
+    collection_order: release
+    url_poster: <<poster>>
+    sort_title: +6_<<collection_name>>
+collections:
+
+  "Ant-Man":
+    template: {name: Set, collection: 422834, poster: https://theposterdb.com/api/assets/162374 }
+
+  "Avengers":
+    template: {name: Set, collection: 86311, poster: https://theposterdb.com/api/assets/162376 }
+
+  "Captain America":
+    template: {name: Set, collection: 131295, poster: https://theposterdb.com/api/assets/162381 }
+
+  "Deadpool":
+    template: {name: Set, movie: "293660, 383498, 533535, 567604", poster: https://theposterdb.com/api/assets/171133 }
+
+  "Guardians of the Galaxy":
+    template: {name: Set, collection: 284433, poster: https://theposterdb.com/api/assets/162393 }
+
+  "Iron Man":
+    template: {name: Set, collection: 131292, poster: https://theposterdb.com/api/assets/162395 }
+
+  "Spider-Man":
+    template: {name: Set, collection: 556, poster: https://theposterdb.com/api/assets/171148 }
+
+  "Amazing Spider-Man":
+    template: {name: Set, collection: 125574, poster: https://theposterdb.com/api/assets/171152 }
+
+  "Spider-Man (Avengers)":
+    template: {name: Set, collection: 531241, poster: https://theposterdb.com/api/assets/171853 }
+
+  "Thor":
+    template: {name: Set, collection: 131296, poster: https://theposterdb.com/api/assets/162406 }
+
+  "Venom":
+    template: {name: Set, collection: 558216, poster: https://theposterdb.com/api/assets/162407 }
+
+  "X-Men":
+    template: {name: Set, collection: 748, poster: https://theposterdb.com/api/assets/171112 }
+
+  "James Bond":
+    template: {name: Set, collection: 645, poster: https://theposterdb.com/api/assets/164797 }
+
+  "The Fast and the Furious":
+    template: {name: Set, collection: 9485, poster: https://theposterdb.com/api/assets/164783 }
+
+  "Men In Black":
+    template: {name: Set, collection: 86055, poster: https://theposterdb.com/api/assets/163929 }
+
+  "Die Hard":
+    template: {name: Set, collection: 1570, poster: https://theposterdb.com/api/assets/164773 }
+
+  "Harry Potter":
+    template: {name: Set, collection: 1241, poster: https://theposterdb.com/api/assets/162216 }
+
+  "The Matrix":
+    template: {name: Set, collection: 2344, poster: https://theposterdb.com/api/assets/163913 }
+
+  "Bourne":
+    template: {name: Set, collection: 31562, poster: https://theposterdb.com/api/assets/164761 }
+
+  "Mission: Impossible":
+    template: {name: Set, collection: 87359, poster: https://theposterdb.com/api/assets/164810 }
+
+  "National Treasure":
+    template: {name: Set, collection: 52984, poster: https://theposterdb.com/api/assets/163397 }
+
+  "Sharknado":
+    template: {name: Set, collection: 286023, poster: https://theposterdb.com/api/assets/162221 }
+
+  "Star Wars":
+    template: {name: Set, collection: 10, poster: https://theposterdb.com/api/assets/164120 }
+
+  "John Wick":
+    template: {name: Set, collection: 404609, poster: https://theposterdb.com/api/assets/164798 }

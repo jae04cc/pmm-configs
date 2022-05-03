@@ -1,0 +1,30 @@
+######################################################
+#                Oscar Collections                   #
+######################################################
+templates:
+    Oscars:
+        trakt_list: https://trakt.tv/users/pjcob/lists/<<year>>-oscars
+        sort_title: +2_Oscars <<year>>'
+        sync_mode: sync
+        summary: Academy Awards (Oscars) for <<year>>
+        smart_label: audience_rating.desc
+collections:
+  Oscars 2017:
+    template: { name: Oscars, year: 2017 }
+    url_poster: https://theposterdb.com/api/assets/10057
+  Oscars 2018:
+    template: { name: Oscars, year: 2018 }
+    url_poster: https://theposterdb.com/api/assets/10058
+  Oscars 2019:
+    template: { name: Oscars, year: 2019 }
+    url_poster: https://theposterdb.com/api/assets/10048
+  Oscars 2020:
+    template: { name: Oscars, year: 2020 }
+    url_poster: https://theposterdb.com/api/assets/40107
+  Oscars 2021:
+    template: { name: Oscars, year: 2021 }
+    url_poster: https://theposterdb.com/api/assets/150379
+  Oscars 2022:
+    template: { name: Oscars, year: 2022 }
+    url_poster: https://theposterdb.com/api/assets/10049
+    radarr_add_missing: true
