@@ -7,7 +7,7 @@ templates:
     summary: |-
       A timed collection of <<collection_name>> and other movies that may relate to the holiday.
       
-      NOTE: this collection will only be around until <<end_date>>.
+      NOTE: This collection will only be around until <<end_date>>.
     sort_title: +6_<<collection_name>>
     schedule: range(<<start_date>>-<<end_date>>)
     delete_not_scheduled: true
