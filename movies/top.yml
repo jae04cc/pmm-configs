@@ -7,7 +7,7 @@ templates:
     sync_mode: sync
     collection_order: custom
 collections:
-  Popular on Plex:
+  MainTower Popular:
     sort_title: +1_1Popular
     sync_mode: sync
     tautulli_popular:
@@ -18,7 +18,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/213575
     visible_home: true
     visible_shared: true
-  Trending on Internet:
+  Internet Trending:
     template: { name: Chart, num: 2 }
     trakt_trending: 10
     #tmdb_trending_daily: 10
