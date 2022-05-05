@@ -10,7 +10,7 @@ templates:
     sync_mode: sync
     collection_order: release
     url_poster: <<poster>>
-    sort_title: +6_<<collection_name>>
+    sort_title: +7_<<collection_name>>
 collections:
 
   "Ant-Man":
