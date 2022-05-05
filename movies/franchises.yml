@@ -8,9 +8,16 @@ templates:
     tmdb_movie: <<movie>>
     tmdb_list: <<list>>
     sync_mode: sync
-    collection_order: release
+    smart_label: release.desc
     url_poster: <<poster>>
     sort_title: +7_<<collection_name>>
+  Franchise:
+    optional:
+      - company
+    tmdb_company: <<company>>
+    sort_title: +7_<<collection_name>>
+    sync_mode: sync
+    smart_label: release.desc
 collections:
 
   "Ant-Man":
@@ -84,3 +91,17 @@ collections:
 
   "John Wick":
     template: {name: Set, collection: 404609, poster: https://theposterdb.com/api/assets/164798 }
+
+  DC Extended Universe:
+    template: {name: Franchise}
+    imdb_list: https://www.imdb.com/list/ls077827588/
+    url_poster: https://theposterdb.com/api/assets/171576
+    summary: The DC Extended Universe (DCEU) is a media franchise and shared universe centered on superheros from DC Comics.
+    collection_order: release
+
+  Marvel Cinematic Universe:
+    template: {name: Franchise}
+    imdb_list: https://www.imdb.com/list/ls009410711/
+    url_poster: https://theposterdb.com/api/assets/162417
+    summary: A collection of movies and shows created by Marvel Studios, comprising of the Marvel Cinematic Universe.
+    collection_order: release

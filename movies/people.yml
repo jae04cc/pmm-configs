@@ -32,3 +32,5 @@ collections:
     template: {name: Director, person: 55934, poster: https://theposterdb.com/api/assets/49071}
   Edgar Wright:
     template: {name: Director, person: 11090, poster: https://theposterdb.com/api/assets/47442}
+  Vince Vaughn:
+    template: {name: Actor, person: 4937, poster: https://theposterdb.com/api/assets/126803}

@@ -20,15 +20,17 @@ templates:
       collection_order: release
       sort_title: +4_<<collection_name>>
 collections:
-  Christopher Nolan:
-    template: {name: Director, person: 525, poster: https://theposterdb.com/api/assets/47425}
-  Robert Eggers:
-    template: {name: Director, person: 138781, poster: https://theposterdb.com/api/assets/231328}
-  Quentin Tarantino:
-    template: {name: Director, person: 138, poster: https://theposterdb.com/api/assets/47468}
-  Nicolas Cage:
-    template: {name: Actor, person: 2963, poster: https://theposterdb.com/api/assets/116368}
-  Taika Waititi:
-    template: {name: Director, person: 55934, poster: https://theposterdb.com/api/assets/49071}
-  Edgar Wright:
-    template: {name: Director, person: 11090, poster: https://theposterdb.com/api/assets/47442}
+  #Christopher Nolan:
+  #  template: {name: Director, person: 525, poster: https://theposterdb.com/api/assets/47425}
+  #Robert Eggers:
+  #  template: {name: Director, person: 138781, poster: https://theposterdb.com/api/assets/231328}
+  #Quentin Tarantino:
+  #  template: {name: Director, person: 138, poster: https://theposterdb.com/api/assets/47468}
+  #Nicolas Cage:
+  #  template: {name: Actor, person: 2963, poster: https://theposterdb.com/api/assets/116368}
+  #Taika Waititi:
+  #  template: {name: Director, person: 55934, poster: https://theposterdb.com/api/assets/49071}
+  #Edgar Wright:
+  #  template: {name: Director, person: 11090, poster: https://theposterdb.com/api/assets/47442}
+  Vince Vaughn:
+    template: {name: Actor, person: 4937, poster: https://theposterdb.com/api/assets/126803}

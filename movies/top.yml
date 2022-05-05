@@ -14,7 +14,7 @@ collections:
       list_days: 30
       list_size: 15
       list_buffer: 15
-    summary: Movies Popular on Plex
+    summary: Popular on Plex
     url_poster: https://theposterdb.com/api/assets/213575
     collection_order: custom
     visible_home: true
