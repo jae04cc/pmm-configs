@@ -20,7 +20,7 @@ collections:
     #visible_shared: true
   Internet Trending:
     template: { name: Chart, num: 2 }
-    trakt_trending: 10
+    trakt_trending: 15
     #tmdb_trending_daily: 10
     #tmdb_trending_weekly: 10
     summary: Trending across the internet
