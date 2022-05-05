@@ -35,7 +35,7 @@ collections:
   #  template: { name: Genre, genre: crime }
   #  url_poster: https://i.imgur.com/1FYD7Cz.jpg
   Documentary:
-    template: { name: Genre, genre: "Biography, Documentary" }
+    template: { name: Genre, genre: documentary }
     url_poster: https://i.imgur.com/KRH25hE.jpg
   #Drama:
   #  template: { name: Genre, genre: drama }
@@ -74,7 +74,7 @@ collections:
   #  template: { name: Genre, genre: "romance,drama" }
   #  url_poster: https://i.imgur.com/ccutmOd.jpg
   Sci-Fi:
-    template: { name: Genre, genre: sci-fi }
+    template: { name: Genre, genre: "science fiction" }
     url_poster: https://i.imgur.com/EPi451Z.jpg
   #Sports:
   #  template: { name: Genre, genre: sport }
