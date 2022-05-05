@@ -103,3 +103,9 @@ collections:
     imdb_list: https://www.imdb.com/list/ls009410711/
     url_poster: https://theposterdb.com/api/assets/162417
     summary: A collection of movies and shows created by Marvel Studios, comprising of the Marvel Cinematic Universe.
+
+  Marvel One-Shots:
+    template: {name: Franchise}
+    trakt_list: https://trakt.tv/users/kidbiz20/lists/marvel-one-shots
+    url_poster: https://theposterdb.com/api/assets/162414
+    summary: A collection of the Marvel One-Shots. 
