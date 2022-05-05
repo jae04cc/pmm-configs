@@ -8,7 +8,7 @@ templates:
     tmdb_movie: <<movie>>
     tmdb_list: <<list>>
     sync_mode: sync
-    smart_label: release.desc
+    collection_order: release
     url_poster: <<poster>>
     sort_title: +7_<<collection_name>>
   Franchise:
@@ -17,7 +17,7 @@ templates:
     tmdb_company: <<company>>
     sort_title: +7_<<collection_name>>
     sync_mode: sync
-    smart_label: release.desc
+    collection_order: release
 collections:
 
   "Ant-Man":

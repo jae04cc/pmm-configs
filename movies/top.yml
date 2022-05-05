@@ -5,9 +5,9 @@ templates:
   Chart:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
-    smart_label: random
+    collection_order: custom
 collections:
-  Popular:
+  Popular on Plex:
     sort_title: +1_1Popular
     sync_mode: sync
     tautulli_popular:
@@ -16,15 +16,14 @@ collections:
       list_buffer: 15
     summary: Popular on Plex
     url_poster: https://theposterdb.com/api/assets/213575
-    collection_order: custom
     visible_home: true
     visible_shared: true
-  Trending:
+  Trending on Internet:
     template: { name: Chart, num: 2 }
     trakt_trending: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
-    summary: Movies trending across the internet
+    summary: Trending across the internet
     url_poster: https://theposterdb.com/api/assets/213570
     visible_home: true
     visible_shared: true
