@@ -10,7 +10,7 @@ templates:
     sync_mode: sync
     smart_label: release.desc
 collections:
- Blue Sky:
+  Blue Sky:
     template: { name: Studio, company: 9383 }
     url_poster: https://theposterdb.com/api/assets/38152
     summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
