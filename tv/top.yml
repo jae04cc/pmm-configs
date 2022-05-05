@@ -21,8 +21,8 @@ collections:
   Trending on Internet:
     template: { name: Chart, num: 2 }
     trakt_trending: 10
-    tmdb_trending_daily: 10
-    tmdb_trending_weekly: 10
+    #tmdb_trending_daily: 10
+    #tmdb_trending_weekly: 10
     summary: Trending across the internet
     url_poster: https://theposterdb.com/api/assets/213570
   #  visible_home: true
