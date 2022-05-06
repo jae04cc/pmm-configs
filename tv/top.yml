@@ -8,28 +8,15 @@ templates:
     collection_order: custom
 collections:
   Popular on Plex:
-    sort_title: +1_1Popular
-    sync_mode: sync
+    template: { name: Chart, num: 1 }
     tautulli_popular:
       list_days: 30
       list_size: 15
       list_buffer: 15
     summary: Popular on Plex
     url_poster: https://theposterdb.com/api/assets/213575
-    #visible_home: true
-    #visible_shared: true
   Trending on the Web:
     template: { name: Chart, num: 2 }
     trakt_trending: 15
-    #tmdb_trending_daily: 10
-    #tmdb_trending_weekly: 10
     summary: Trending across the internet
     url_poster: https://theposterdb.com/api/assets/213570
-  #  visible_home: true
-  #  visible_shared: true
-  #IMDb Top 250:
-  #  template: { name: Chart, num: 4 }
-  #  imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
-  #  tmdb_top_rated: 250
-  #  summary: Top Rated Movies on IMDb
-  #  url_poster: https://theposterdb.com/api/assets/213613
