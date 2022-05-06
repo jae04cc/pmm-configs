@@ -15,8 +15,12 @@ collections:
       list_buffer: 15
     summary: Popular on Plex
     url_poster: https://theposterdb.com/api/assets/213575
+    visible_home: true
+    visible_shared: true
   Trending on the Web:
     template: { name: Chart, num: 2 }
     trakt_trending: 15
     summary: Trending across the internet
     url_poster: https://theposterdb.com/api/assets/213570
+    visible_home: true
+    visible_shared: true
