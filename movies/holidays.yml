@@ -3,7 +3,7 @@
 ######################################################
 templates:
   Holiday:
-    smart_label: title.asc
+    smart_label: random
     summary: |-
       A timed collection of <<collection_name>> and other movies that may relate to the holiday.
       
