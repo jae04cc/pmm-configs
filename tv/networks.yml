@@ -9,7 +9,15 @@ templates:
       validate: false
       any:
         network: <<network>>
-    sort_title: +6_<<collection_name>>
+    sort_title: +6_3<<collection_name>>
+
+  streaming:
+    smart_filter:
+      sort_by: release.desc
+      validate: false
+      any:
+        network: <<network>>
+    sort_title: +6_2<<collection_name>>
 
 collections:
   #ABC Shows:
@@ -29,8 +37,8 @@ collections:
   #  url_poster: https://i.imgur.com/LxSlmgQ.jpg
 
   AppleTV+:
-    template: { name: network, network: "Apple Music, Apple TV+" }
-    url_poster: https://i.imgur.com/0c9c9lp.jpg
+    template: { name: streaming, network: "Apple Music, Apple TV+" }
+    url_poster: https://theposterdb.com/api/assets/163303
 
   BBC:
     template: { name: network, network: "BBC, BBC America, BBC Choice, BBC First, BBC Four, BBC HD, BBC iPlayer, BBC One, BBC Two, BBC Three, BBC UKTV, CBBC, Cbeebies" }
@@ -71,8 +79,8 @@ collections:
   #  url_poster: https://i.imgur.com/07aDOXW.jpg
 
   Disney+:
-    template: { name: network, network: "Disney Channel, Disney Channel (UK), Disney Junior, Disney XD, Disney+, Disney+ Hostar" }
-    url_poster: https://i.imgur.com/j55whvT.jpg
+    template: { name: streaming, network: "Disney Channel, Disney Channel (UK), Disney Junior, Disney XD, Disney+, Disney+ Hostar" }
+    url_poster: https://theposterdb.com/api/assets/163294
   #  visible_library: true
   #  visible_home: true
   #  visible_shared: true
@@ -98,8 +106,8 @@ collections:
   #  url_poster: https://i.imgur.com/ONFZrZ8.jpeg
 
   Hulu:
-    template: { name: network, network: "Hulu" }
-    url_poster: https://i.imgur.com/0BLtVsI.jpg
+    template: { name: streaming, network: "Hulu" }
+    url_poster: https://theposterdb.com/api/assets/163302
 
   #Investigation Discovery Shows:
   #  template: { name: network, network: "Investigation Discovery" }
@@ -129,8 +137,8 @@ collections:
     url_poster: https://i.imgur.com/s3MFG59.jpg
 
   Netflix:
-    template: { name: network, network: "Netflix" }
-    url_poster: https://i.imgur.com/T0etwew.jpg
+    template: { name: streaming, network: "Netflix" }
+    url_poster: https://theposterdb.com/api/assets/163300
   #  visible_library: true
   #  visible_home: true
   #  visible_shared: true
@@ -140,8 +148,8 @@ collections:
   #  url_poster: https://imgur.com/a/3yBsyeh.jpg
 
   Prime Video:
-    template: { name: network, network: "Amazon, Amazon Prime Video, Prime Video" }
-    url_poster: https://i.imgur.com/5gd7Lyw.jpg
+    template: { name: streaming, network: "Amazon, Amazon Prime Video, Prime Video" }
+    url_poster: https://theposterdb.com/api/assets/163301
 
   Showtime:
     template: { name: network, network: "Showtime" }
@@ -166,3 +174,10 @@ collections:
   YouTube:
     template: { name: network, network: "YouTube, YouTube Premium" }
     url_poster: https://i.imgur.com/xoWEueb.jpg
+
+  A24:
+    trakt_list: https://trakt.tv/users/fidel-cb/lists/a24
+    url_poster: https://theposterdb.com/api/assets/163286
+    sort_title: +6_1A24
+    sync_mode: sync
+    collection_order: release
