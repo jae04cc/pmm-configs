@@ -165,4 +165,4 @@ collections:
     url_poster: https://theposterdb.com/api/assets/163286
     sort_title: +6_1A24
     sync_mode: sync
-    collection_order: release
+    collection_order: release.desc
