@@ -36,7 +36,7 @@ collections:
   #  template: { name: network, network: "A&E" }
   #  url_poster: https://i.imgur.com/LxSlmgQ.jpg
 
-  AppleTV+:
+  Apple TV+:
     template: { name: streaming, network: "Apple Music, Apple TV+" }
     url_poster: https://theposterdb.com/api/assets/163303
 
