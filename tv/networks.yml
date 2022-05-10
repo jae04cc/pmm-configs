@@ -128,9 +128,9 @@ collections:
     template: { name: streaming, network: "Netflix" }
     url_poster: https://theposterdb.com/api/assets/163300
   
-  PBS:
-    template: { name: network, network: "PBS, PBS Kids" }
-    url_poster: https://imgur.com/a/3yBsyeh.jpg
+  #PBS:
+  #  template: { name: network, network: "PBS, PBS Kids" }
+  #  url_poster: https://imgur.com/a/3yBsyeh.jpg
 
   Prime Video:
     template: { name: streaming, network: "Amazon, Amazon Prime Video, Prime Video" }
