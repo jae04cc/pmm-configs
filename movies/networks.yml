@@ -63,7 +63,12 @@ collections:
     url_poster: https://theposterdb.com/api/assets/163286
     visible_home: true
     visible_shared: true
-  
+
+  Apple TV+:
+    template: { name: studio, num: 2 }
+    trakt_list: https://trakt.tv/users/asmobarki/lists/apple-tv
+    url_poster: https://theposterdb.com/api/assets/163303
+
   Prime Video:
     template: { name: Studio, num: 2 }
     trakt_list: https://trakt.tv/users/ryalism/lists/amazon-movies
