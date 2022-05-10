@@ -32,9 +32,9 @@ collections:
     template: { name: network, network: "AMC, AMC+" }
     url_poster: https://i.imgur.com/CaALafB.jpeg
 
-  A&E:
-    template: { name: network, network: "A&E" }
-    url_poster: https://i.imgur.com/LxSlmgQ.jpg
+  #A&E:
+  #  template: { name: network, network: "A&E" }
+  #  url_poster: https://i.imgur.com/LxSlmgQ.jpg
 
   AppleTV+:
     template: { name: streaming, network: "Apple Music, Apple TV+" }
@@ -64,9 +64,9 @@ collections:
     template: { name: network, network: "Comedy Central, Comedy Central (UK)" }
     url_poster: https://i.imgur.com/U6YRJ1k.jpg
 
-  Cooking Channel:
-    template: { name: network, network: "Cooking Channel" }
-    url_poster: https://i.imgur.com/4Ft7kFB.jpeg
+  #Cooking Channel:
+  #  template: { name: network, network: "Cooking Channel" }
+  #  url_poster: https://i.imgur.com/4Ft7kFB.jpeg
 
   Discovery:
     template: { name: network, network: "Discovery, Discovery Channel, Discovery Channel (AU), Discovery Channel (CA), Discovery Channel (UK), Discovery Health Channel, Discovery Kids, Discovery Life, Discovery Real Time, Discovery Turbo, Discovery Turbo UK, Discovery+" }
@@ -76,9 +76,9 @@ collections:
     template: { name: streaming, network: "Disney Channel, Disney Channel (UK), Disney Junior, Disney XD, Disney+, Disney+ Hostar" }
     url_poster: https://theposterdb.com/api/assets/163294
 
-  ESPN:
-    template: { name: network, network: "ESPN, ESPN+" }
-    url_poster: https://i.imgur.com/EIBGK8V.jpeg
+  #ESPN:
+  #  template: { name: network, network: "ESPN, ESPN+" }
+  #  url_poster: https://i.imgur.com/EIBGK8V.jpeg
 
   FOX:
     template: { name: network, network: "FX, FOX, Fox Action Movies, Fox Business Network, Fox Kids, Fox Premium Series, FOX Sports 1, Fox Sports Networks" }
