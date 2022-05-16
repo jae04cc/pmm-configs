@@ -10,7 +10,7 @@ collections:
   Popular on Plex:
     template: { name: Chart, num: 1 }
     tautulli_popular:
-      list_days: 30
+      list_days: 15
       list_size: 15
       list_buffer: 15
     summary: Popular on Plex
