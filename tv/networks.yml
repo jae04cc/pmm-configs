@@ -21,17 +21,17 @@ templates:
 
 collections:
   
-  ABC:
-    template: { name: network, network: "ABC, ABC (AU), ABS (US), ABC Comedy, ABC Family, ABC Me, ABC Spark, ABC.com, ABC1, ABC3" }
-    url_poster: https://i.imgur.com/mlpeRrY.jpg
+  #ABC:
+  #  template: { name: network, network: "ABC, ABC (AU), ABS (US), ABC Comedy, ABC Family, ABC Me, ABC Spark, ABC.com, ABC1, ABC3" }
+  #  url_poster: https://i.imgur.com/mlpeRrY.jpg
 
   Apple TV+:
     template: { name: streaming, network: "Apple Music, Apple TV+" }
     url_poster: https://theposterdb.com/api/assets/163303
 
-  BBC:
-    template: { name: network, network: "BBC, BBC America, BBC Choice, BBC First, BBC Four, BBC HD, BBC iPlayer, BBC One, BBC Two, BBC Three, BBC UKTV, CBBC, Cbeebies" }
-    url_poster: https://i.imgur.com/6eaLmTK.jpg
+  #BBC:
+  #  template: { name: network, network: "BBC, BBC America, BBC Choice, BBC First, BBC Four, BBC HD, BBC iPlayer, BBC One, BBC Two, BBC Three, BBC UKTV, CBBC, Cbeebies" }
+  #  url_poster: https://i.imgur.com/6eaLmTK.jpg
 
   Disney+:
     template: { name: streaming, network: "Disney Channel, Disney Channel (UK), Disney Junior, Disney XD, Disney+, Disney+ Hostar" }
@@ -45,9 +45,9 @@ collections:
     template: { name: streaming, network: "Hulu" }
     url_poster: https://theposterdb.com/api/assets/163302
 
-  NBC:
-    template: { name: network, network: "NBC, Peacock" }
-    url_poster: https://i.imgur.com/s3MFG59.jpg
+  #NBC:
+  #  template: { name: network, network: "NBC, Peacock" }
+  #  url_poster: https://i.imgur.com/s3MFG59.jpg
 
   Netflix:
     template: { name: streaming, network: "Netflix" }
@@ -57,17 +57,17 @@ collections:
     template: { name: streaming, network: "Amazon, Amazon Prime Video, Prime Video" }
     url_poster: https://theposterdb.com/api/assets/163301
 
-  Showtime:
-    template: { name: network, network: "Showtime" }
-    url_poster: https://i.imgur.com/ZhsLqS9.jpg
+  #Showtime:
+  #  template: { name: network, network: "Showtime" }
+  #  url_poster: https://i.imgur.com/ZhsLqS9.jpg
 
-  Sky:
-    template: { name: network, network: "Sky 1, Sky Arts, Sky Atlantic, Sky Atlantic (UK), Sky Cinema, Sky Crime, Sky Documentaries, Sky Living, Sky Max, Sky Nature, Sky One, Sky Sports, Sky Two, Sky Witness, Sky1" }
-    url_poster: https://i.imgur.com/qBS4e5P.jpg
+  #Sky:
+  #  template: { name: network, network: "Sky 1, Sky Arts, Sky Atlantic, Sky Atlantic (UK), Sky Cinema, Sky Crime, Sky Documentaries, Sky Living, Sky Max, Sky Nature, Sky One, Sky Sports, Sky Two, Sky Witness, Sky1" }
+  #  url_poster: https://i.imgur.com/qBS4e5P.jpg
 
-  TBS:
-    template: { name: network, network: "TBS" }
-    url_poster: https://i.imgur.com/eVGITgO.jpg
+  #TBS:
+  #  template: { name: network, network: "TBS" }
+  #  url_poster: https://i.imgur.com/eVGITgO.jpg
 
   YouTube:
     template: { name: network, network: "YouTube, YouTube Premium" }
