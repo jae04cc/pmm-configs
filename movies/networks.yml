@@ -66,25 +66,25 @@ collections:
 
   Apple TV+:
     template: { name: Studio, num: 2 }
-    trakt_list: https://trakt.tv/users/asmobarki/lists/apple-tv
+    trakt_list: https://trakt.tv/users/asmobarki/lists/apple-tv-37e991d2-9bb2-4308-97f2-3579e96c3582
     url_poster: https://theposterdb.com/api/assets/163303
 
   Prime Video:
     template: { name: Studio, num: 2 }
-    trakt_list: https://trakt.tv/users/ryalism/lists/amazon-movies
+    trakt_list: https://trakt.tv/users/ryalism/lists/amazon-movies-5cadc0e3-b9d1-4d64-9a48-f3d4e445c363
     url_poster: https://theposterdb.com/api/assets/163301
     
   Disney+:
     template: { name: Studio, num: 2 }
-    trakt_list: https://trakt.tv/users/ryalism/lists/disney-movies
+    trakt_list: https://trakt.tv/users/ryalism/lists/disney-movies-a29f2593-6e09-49a7-8164-727976ec2f5e
     url_poster: https://theposterdb.com/api/assets/163294
 
   Hulu:
     template: { name: Studio, num: 2 }
-    trakt_list: https://trakt.tv/users/ryalism/lists/hulu-movies
+    trakt_list: https://trakt.tv/users/ryalism/lists/hulu-movies-b2093afe-88cb-4cb1-8a35-d87692d2caeb
     url_poster: https://theposterdb.com/api/assets/163302
 
   Netflix:
     template: { name: Studio, num: 2 }
-    trakt_list: https://trakt.tv/users/ryalism/lists/netflix-movies
+    trakt_list: https://trakt.tv/users/ishalioh/lists/netflix-original-movies-english
     url_poster: https://theposterdb.com/api/assets/163300
