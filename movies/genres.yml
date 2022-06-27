@@ -52,6 +52,9 @@ collections:
   Horror:
     template: { name: Genre, genre: horror }
     url_poster: https://i.imgur.com/M6msOoq.jpg
+  Horror Comedy:
+    template: { name: Genre, genre: "horror,comedy" }
+    url_poster: https://i.imgur.com/LuCLEiZ.jpg
   #Music:
   #  template: { name: Genre, genre: music, exclude: null}
   #  url_poster: https://i.imgur.com/eCJZSue.jpg
