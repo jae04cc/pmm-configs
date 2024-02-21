@@ -24,8 +24,9 @@ collections:
     url_poster: https://theposterdb.com/api/assets/213570
     visible_home: true
     visible_shared: true
-  #IMDb Top 250:
-  #  template: { name: Chart, num: 4 }
-  #  imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
-  #  summary: Top Rated Movies on IMDb
-  #  url_poster: https://theposterdb.com/api/assets/213613
+  IMDb Top 250:
+    template: { name: Chart, num: 4 }
+    imdb_search: 
+      imdb_top: 250
+    summary: Top Rated Movies on IMDb
+    url_poster: https://theposterdb.com/api/assets/213613
