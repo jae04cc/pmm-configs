@@ -94,13 +94,15 @@ collections:
 
   DC Extended Universe:
     template: {name: Franchise}
-    imdb_list: https://www.imdb.com/list/ls077827588/
+    imdb_search:
+      list: ls077827588
     url_poster: https://theposterdb.com/api/assets/171576
     summary: The DC Extended Universe (DCEU) is a media franchise and shared universe centered on superheros from DC Comics.
 
   Marvel Cinematic Universe:
     template: {name: Franchise}
-    imdb_list: https://www.imdb.com/list/ls009410711/
+    imdb_search:
+      list: ls009410711
     url_poster: https://theposterdb.com/api/assets/162417
     summary: A collection of movies and shows created by Marvel Studios, comprising of the Marvel Cinematic Universe.
 
