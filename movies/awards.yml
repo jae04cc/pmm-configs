@@ -27,3 +27,9 @@ collections:
   Oscars 2022:
     template: { name: Oscars, year: 2022 }
     url_poster: https://theposterdb.com/api/assets/10049
+  Oscars 2023:
+    template: { name: Oscars, year: 2023 }
+    url_poster: https://theposterdb.com/api/assets/10049
+  Oscars 2024:
+    template: { name: Oscars, year: 2024 }
+    url_poster: https://theposterdb.com/api/assets/10049
