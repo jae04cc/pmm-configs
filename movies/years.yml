@@ -30,3 +30,19 @@ collections:
     template: { name: Best of, year: 2022 }
     summary: Best movies of 2022
     url_poster: https://theposterdb.com/api/assets/205162
+  Best of 2023:
+    template: { name: Best of, year: 2023 }
+    summary: Best movies of 2023
+    url_poster: https://theposterdb.com/api/assets/205163
+  Best of 2024:
+    template: { name: Best of, year: 2024 }
+    summary: Best movies of 2024
+    url_poster: https://theposterdb.com/api/assets/205164
+  #Best of 2025:
+  #  template: { name: Best of, year: 2025 }
+  #  summary: Best movies of 2025
+  #  url_poster: https://theposterdb.com/api/assets/205165
+  #Best of 2026:
+  #  template: { name: Best of, year: 2026 }
+  #  summary: Best movies of 2026
+  #  url_poster: https://theposterdb.com/api/assets/205166
