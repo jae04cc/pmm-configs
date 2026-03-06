@@ -66,10 +66,10 @@ collections:
     visible_home: true
     visible_shared: true
 
-  Apple TV+:
-    template: { name: Studio, num: 2 }
-    trakt_list: https://trakt.tv/users/ryalism/lists/apple-tv-movies-37e991d2-9bb2-4308-97f2-3579e96c3582
-    url_poster: https://theposterdb.com/api/assets/163303
+  #  Apple TV+:
+    #  template: { name: Studio, num: 2 }
+    #  trakt_list: https://trakt.tv/users/ryalism/lists/apple-tv-movies-37e991d2-9bb2-4308-97f2-3579e96c3582
+    #  url_poster: https://theposterdb.com/api/assets/163303
 
   Prime Video:
     template: { name: Studio, num: 2 }
