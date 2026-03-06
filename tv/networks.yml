@@ -25,9 +25,9 @@ collections:
   #  template: { name: network, network: "ABC, ABC (AU), ABS (US), ABC Comedy, ABC Family, ABC Me, ABC Spark, ABC.com, ABC1, ABC3" }
   #  url_poster: https://i.imgur.com/mlpeRrY.jpg
 
-  Apple TV+:
-    template: { name: streaming, network: "Apple Music, Apple TV+" }
-    url_poster: https://theposterdb.com/api/assets/163303
+  #  Apple TV+:
+    #  template: { name: streaming, network: "Apple Music, Apple TV+" }
+    #  url_poster: https://theposterdb.com/api/assets/163303
 
   #BBC:
   #  template: { name: network, network: "BBC, BBC America, BBC Choice, BBC First, BBC Four, BBC HD, BBC iPlayer, BBC One, BBC Two, BBC Three, BBC UKTV, CBBC, Cbeebies" }
