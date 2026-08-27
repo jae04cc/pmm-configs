@@ -9,7 +9,6 @@ templates:
       validate: false
       all:
         genre.not: <<exclude>>
-        audio_language: en
         genre: <<genre>>
 
 collections:
