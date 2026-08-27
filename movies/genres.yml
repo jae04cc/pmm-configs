@@ -1,14 +1,10 @@
 templates:
   Genre:
-    default:
-      exclude: Children, Anime
     sort_title: +5_<<collection_name>>
-    #url_background: https://wallpaper.dog/large/20509069.jpg
     smart_filter:
       sort_by: release.desc
       validate: false
       all:
-        genre.not: <<exclude>>
         genre: <<genre>>
 
 collections:
