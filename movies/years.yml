@@ -1,9 +1,15 @@
 templates:
   Best of:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
+    imdb_search:
+      type: movie
+      release.after: <<year>>-01-01
+      release.before: <<year>>-12-31
+      votes.gte: 15000
+      sort_by: rating.desc
+      limit: 75
     sort_title: +1_Best of <<year>>
     sync_mode: sync
-    summary: Rotten Tomatoes Best Movies of <<year>>
+    summary: Best movies of <<year>>
     smart_label: audience_rating.desc
 collections:
   Best of 2017:

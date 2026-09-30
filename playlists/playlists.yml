@@ -2,5 +2,5 @@ playlists:
   Marvel Cinematic Universe:
     sync_mode: sync
     libraries: Movies, TV Shows
-    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
+    mdblist_list: https://mdblist.com/lists/quepro0809/mcu-chronological
     summary: Marvel Cinematic Universe In Chronological Order

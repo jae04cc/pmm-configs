@@ -108,6 +108,6 @@ collections:
 
   Marvel One-Shots:
     template: {name: Franchise}
-    trakt_list: https://trakt.tv/users/kidbiz20/lists/marvel-one-shots
+    tmdb_movie: 76122, 76535, 119569, 211387, 253980, 413279, 441829, 505945, 758025
     url_poster: https://theposterdb.com/api/assets/162414
     summary: A collection of the Marvel One-Shots. 

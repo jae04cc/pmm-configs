@@ -1,29 +1,40 @@
 ######################################################
-#                Oscar Collections                   #
+#                Emmy Collections                    #
 ######################################################
 templates:
-    Oscars:
-        trakt_list: https://trakt.tv/users/pjcob/lists/<<year>>-oscars
-        sort_title: +2_Oscars <<year>>'
+    Emmys:
+        imdb_award:
+            event_id: ev0000223
+            event_year: <<year>>
+        sort_title: +2_Emmys <<year>>
         sync_mode: sync
-        summary: Academy Awards (Oscars) for <<year>>
+        summary: Primetime Emmy Awards for <<year>>
         smart_label: audience_rating.desc
+        url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/emmys/<<year>>.jpg
 collections:
-  Oscars 2017:
-    template: { name: Oscars, year: 2017 }
-    url_poster: https://theposterdb.com/api/assets/10057
-  Oscars 2018:
-    template: { name: Oscars, year: 2018 }
-    url_poster: https://theposterdb.com/api/assets/10058
-  Oscars 2019:
-    template: { name: Oscars, year: 2019 }
-    url_poster: https://theposterdb.com/api/assets/10048
-  Oscars 2020:
-    template: { name: Oscars, year: 2020 }
-    url_poster: https://theposterdb.com/api/assets/40107
-  Oscars 2021:
-    template: { name: Oscars, year: 2021 }
-    url_poster: https://theposterdb.com/api/assets/150379
-  Oscars 2022:
-    template: { name: Oscars, year: 2022 }
-    url_poster: https://theposterdb.com/api/assets/10049
+  Emmys 2017:
+    template: { name: Emmys, year: 2017 }
+  Emmys 2018:
+    template: { name: Emmys, year: 2018 }
+  Emmys 2019:
+    template: { name: Emmys, year: 2019 }
+  Emmys 2020:
+    template: { name: Emmys, year: 2020 }
+  Emmys 2021:
+    template: { name: Emmys, year: 2021 }
+  Emmys 2022:
+    template: { name: Emmys, year: 2022 }
+  Emmys 2023:
+    template: { name: Emmys, year: 2023 }
+  Emmys 2024:
+    template: { name: Emmys, year: 2024 }
+  Emmys 2025:
+    template: { name: Emmys, year: 2025 }
+  Emmys 2026:
+    template: { name: Emmys, year: 2026 }
+  #Emmys 2027:
+  #  template: { name: Emmys, year: 2027 }
+  #Emmys 2028:
+  #  template: { name: Emmys, year: 2028 }
+  #Emmys 2029:
+  #  template: { name: Emmys, year: 2029 }

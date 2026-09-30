@@ -1,40 +1,72 @@
 templates:
 
   Best of:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
+    imdb_search:
+      type: tv_series, tv_mini_series
+      release.after: <<year>>-01-01
+      release.before: <<year>>-12-31
+      votes.gte: 5000
+      sort_by: rating.desc
+      limit: 75
     sort_title: +1_Best of <<year>>
     sync_mode: sync
-    summary: Rotten Tomatoes Best Movies of <<year>>
+    summary: Best shows of <<year>>
     smart_label: audience_rating.desc
 
 collections:
 
   Best of 2017:
     template: { name: Best of, year: 2017 }
-    summary: Best movies of 2017
     url_poster: https://theposterdb.com/api/assets/205157
 
   Best of 2018:
     template: { name: Best of, year: 2018 }
-    summary: Best movies of 2018
     url_poster: https://theposterdb.com/api/assets/205158
 
   Best of 2019:
     template: { name: Best of, year: 2019 }
-    summary: Best movies of 2019
     url_poster: https://theposterdb.com/api/assets/205159
 
   Best of 2020:
     template: { name: Best of, year: 2020 }
-    summary: Best movies of 2020
     url_poster: https://theposterdb.com/api/assets/205160
 
   Best of 2021:
     template: { name: Best of, year: 2021 }
-    summary: Best movies of 2021
     url_poster: https://theposterdb.com/api/assets/205161
 
   Best of 2022:
     template: { name: Best of, year: 2022 }
-    summary: Best movies of 2022
     url_poster: https://theposterdb.com/api/assets/205162
+
+  Best of 2023:
+    template: { name: Best of, year: 2023 }
+    url_poster: https://theposterdb.com/api/assets/205163
+
+  Best of 2024:
+    template: { name: Best of, year: 2024 }
+    url_poster: https://theposterdb.com/api/assets/205164
+
+  Best of 2025:
+    template: { name: Best of, year: 2025 }
+    url_poster: https://theposterdb.com/api/assets/205165
+
+  Best of 2026:
+    template: { name: Best of, year: 2026 }
+    url_poster: https://theposterdb.com/api/assets/205166
+
+  #Best of 2027:
+  #  template: { name: Best of, year: 2027 }
+  #  url_poster: https://theposterdb.com/api/assets/205167
+
+  #Best of 2028:
+  #  template: { name: Best of, year: 2028 }
+  #  url_poster: https://theposterdb.com/api/assets/205168
+
+  #Best of 2029:
+  #  template: { name: Best of, year: 2029 }
+  #  url_poster: https://theposterdb.com/api/assets/205169
+
+  #Best of 2030:
+  #  template: { name: Best of, year: 2030 }
+  #  url_poster: https://theposterdb.com/api/assets/205170

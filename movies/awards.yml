@@ -3,39 +3,38 @@
 ######################################################
 templates:
     Oscars:
-        trakt_list: https://trakt.tv/users/pjcob/lists/<<year>>-oscars
-        sort_title: +2_Oscars <<year>>'
+        imdb_award:
+            event_id: ev0000003
+            event_year: <<year>>
+        sort_title: +2_Oscars <<year>>
         sync_mode: sync
         summary: Academy Awards (Oscars) for <<year>>
         smart_label: audience_rating.desc
+        url_poster: https://raw.githubusercontent.com/Kometa-Team/Default-Images/master/award/oscars/<<year>>.jpg
 collections:
   Oscars 2017:
     template: { name: Oscars, year: 2017 }
-    url_poster: https://theposterdb.com/api/assets/10057
   Oscars 2018:
     template: { name: Oscars, year: 2018 }
-    url_poster: https://theposterdb.com/api/assets/10058
   Oscars 2019:
     template: { name: Oscars, year: 2019 }
-    url_poster: https://theposterdb.com/api/assets/10048
   Oscars 2020:
     template: { name: Oscars, year: 2020 }
-    url_poster: https://theposterdb.com/api/assets/40107
   Oscars 2021:
     template: { name: Oscars, year: 2021 }
-    url_poster: https://theposterdb.com/api/assets/150379
   Oscars 2022:
     template: { name: Oscars, year: 2022 }
-    url_poster: https://theposterdb.com/api/assets/10049
   Oscars 2023:
     template: { name: Oscars, year: 2023 }
-    url_poster: https://theposterdb.com/api/assets/10049
   Oscars 2024:
     template: { name: Oscars, year: 2024 }
-    url_poster: https://theposterdb.com/api/assets/10049
   Oscars 2025:
     template: { name: Oscars, year: 2025 }
-    url_poster: https://theposterdb.com/api/assets/10049
   Oscars 2026:
     template: { name: Oscars, year: 2026 }
-    url_poster: https://theposterdb.com/api/assets/10049
+  #Oscars 2027:
+  #  template: { name: Oscars, year: 2027 }
+  #Oscars 2028:
+  #  template: { name: Oscars, year: 2028 }
+  #Oscars 2029:
+  #  template: { name: Oscars, year: 2029 }
