@@ -6,6 +6,7 @@ templates:
         imdb_award:
             event_id: ev0000003
             event_year: <<year>>
+            award_filter: oscar
         sort_title: +2_Oscars <<year>>
         sync_mode: sync
         summary: Academy Awards (Oscars) for <<year>>

@@ -6,6 +6,7 @@ templates:
         imdb_award:
             event_id: ev0000223
             event_year: <<year>>
+            award_filter: primetime emmy
         sort_title: +2_Emmys <<year>>
         sync_mode: sync
         summary: Primetime Emmy Awards for <<year>>
